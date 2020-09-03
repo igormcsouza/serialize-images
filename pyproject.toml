@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["Igor Souza <igormcsouza@gmail.com>"]
 
+[tool.poetry.scripts]
+test = "serialize_images.scripts.tests:run_tests"
+
 [tool.poetry.dependencies]
 python = "^3.8"
 numpy = "^1.19.1"
