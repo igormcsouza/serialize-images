@@ -5,7 +5,7 @@ from serialize_images.core import MainArraySerializable
 
 
 def test_version():
-    assert __version__ == '0.1.0'
+    assert __version__ == '0.1.1'
 
 def test_core_encode():
     result = MainArraySerializable.encode_to_string(numpy.ndarray([0]))

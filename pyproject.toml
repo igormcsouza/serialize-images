@@ -1,8 +1,16 @@
 [tool.poetry]
 name = "serialize-images"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Igor Souza <igormcsouza@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/igormcsouza/serialize-images"
+repository = "https://github.com/igormcsouza/serialize-images"
+keywords = ["serialize", "images", "json", "easy"]
+include = [
+    "LICENSE",
+]
 
 [tool.poetry.scripts]
 test = "serialize_images.scripts.tests:run_tests"
