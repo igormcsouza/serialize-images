@@ -1,7 +1,6 @@
 # Serialize your images in a Easy way as it should be
 
 [![Build Status](https://travis-ci.org/igormcsouza/serialize-images.svg?branch=master)](https://travis-ci.org/igormcsouza/serialize-images)
-
 [![PyPI version](https://badge.fury.io/py/serialize-images.svg)](https://badge.fury.io/py/serialize-images)
 
 ## What was that?
