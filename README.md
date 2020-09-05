@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/igormcsouza/serialize-images.svg?branch=master)](https://travis-ci.org/igormcsouza/serialize-images)
 
+[![PyPI version](https://badge.fury.io/py/serialize-images.svg)](https://badge.fury.io/py/serialize-images)
+
 ## What was that?
 
 Hey, if you are here is because you struggle all across internet looking for an easy way to serialize images so you can send them through json across your services right? Well, that was my biggest issue! 
