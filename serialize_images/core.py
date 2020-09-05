@@ -1,7 +1,7 @@
 """ Core Classes
 
 Author: Igor Souza
-Version: 0.0.1
+Version: 0.0.2
 
 
 
@@ -15,7 +15,8 @@ import io
 
 
 class MainArraySerializable:
-    """Serialize Numpy.Ndarray to string like objects which may be dumps through Json"""
+    """Serialize Numpy.Ndarray to string like objects which may be dumps through
+    Json"""
     
     @staticmethod
     def encode_to_string(arr):
@@ -28,7 +29,8 @@ class MainArraySerializable:
     
     @staticmethod
     def decode_to_ndarray(text):
-        """Decode the string from MainArraySerializable.encode_to_string to an Numpy.Ndarry"""
+        """Decode the string from MainArraySerializable.encode_to_string to an 
+        Numpy.Ndarry"""
         
         memfile = io.BytesIO()
         memfile.write(text.encode('latin-1'))
